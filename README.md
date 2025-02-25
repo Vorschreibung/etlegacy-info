@@ -24,6 +24,12 @@ unset - Unset a userdefined cvar.
 g_doWarmup "0"
 ```
 
+### Enable instant respawning for dev cycles
+```
+# default: 0
+g_forcerespawn -1
+```
+
 ### Draw last lines of Console during gameplay
 ```
 con_drawnotify 1
